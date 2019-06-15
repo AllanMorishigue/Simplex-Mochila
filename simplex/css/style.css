@@ -1,0 +1,39 @@
+form.container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 15px 40px 50px;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    max-width: 100%;
+    border-radius: 15px;
+    box-shadow: 4px 4px 44px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.wrape {
+    margin: 80px;
+    background: black;
+}
+
+.title {
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px;
+}
+
+@media (min-width: 768px) {
+    .col-md-12 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        justify-content: center;
+        display: flex;
+    }
+}
+
+.col-md-12 {
+    display: flex !import;
+    justify-content: center !import;
+}
